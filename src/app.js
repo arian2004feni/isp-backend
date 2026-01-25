@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 
 // Import routes
-const routes = require("../routes/index.js");
+const routes = require("./routes/index.js");
 
 const app = express();
 

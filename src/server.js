@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 const app = require("./app.js");
-const connectDB = require("../config/database.js");
+const connectDB = require("./config/database.js");
 
 // Connect MongoDB FIRST
 connectDB();
